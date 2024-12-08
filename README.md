@@ -9,20 +9,21 @@ The model focuses on 19 different conditions, including Acne, Melanoma, Eczema, 
 By leveraging deep learning techniques, particularly convolutional neural networks (CNNs), the model achieves impressive accuracy in identifying these conditions. This tool is designed to provide support to doctors and researchers, saving time and improving early diagnosis for patients.
 
 ## Key Features
-Automatic Classification: Detects and classifies 19 different skin conditions with high accuracy.
-Scalability: Handles large datasets efficiently, making it suitable for real-world use.
-Visual Feedback: Offers tools to visualize predictions and performance metrics.
-Customizable: Can be easily retrained and tested on different datasets.
-Dataset Information
+# Automatic Classification: Detects and classifies 19 different skin conditions with high accuracy.
+# Scalability: Handles large datasets efficiently, making it suitable for real-world use.
+# Visual Feedback: Offers tools to visualize predictions and performance metrics.
+# Customizable: Can be easily retrained and tested on different datasets.
+
+##Dataset Information
 The project uses a well-organized dataset with high-quality images, categorized into 19 skin conditions.
 
-## Dataset Highlights:
+# Dataset Highlights:
 
 Training Images: 2,609
 Testing Images: 897
 Classes: 19
 
-Examples of categories include:
+# Examples of categories include:
 Acne and Rosacea
 Melanoma
 Eczema
@@ -32,7 +33,7 @@ The images are arranged in directories for each class, making it easy to work wi
 ## Model Overview
 The model uses a sequential deep learning architecture that processes image data to identify skin lesions. Here are some key aspects:
 
-Normalization: Prepares images for consistent processing.
+1. Normalization: Prepares images for consistent processing.
 Feature Extraction: Uses convolutional layers to capture patterns like edges and textures.
 Dimensional Reduction: Pooling layers simplify image data while preserving important details.
 Classification: Fully connected layers map features to specific skin conditions.
