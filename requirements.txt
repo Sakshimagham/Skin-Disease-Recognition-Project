@@ -1,0 +1,11 @@
+streamlit==1.40.2
+tensorflow==2.13.0  # Adjust to the version you used in development
+numpy==2.1.3
+pandas==2.2.3
+Pillow==11.0.0
+opencv-python-headless==4.8.0.74  # For image processing, if used
+scikit-learn==1.3.0  # If you use machine learning utilities
+matplotlib==3.8.0  # For plotting (if applicable)
+seaborn==0.12.2  # For enhanced visualizations (if applicable)
+h5py==3.9.0  # If using HDF5 models
+protobuf==5.29.1  # Compatibility with TensorFlow
